@@ -18,6 +18,12 @@ gem 'jquery-ui-rails'
 
 gem 'validates_timeliness', '~> 4.0'
 
+# For API
+gem 'grape', '0.2.1'
+gem 'rabl'
+gem 'oj'
+gem 'request_store', '1.0.3'
+gem 'httparty'
 
 # gem for creating views in slim format
 gem 'slim', :require => 'slim'
