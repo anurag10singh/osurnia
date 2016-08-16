@@ -1,4 +1,4 @@
-module Innoverse
+module Osurnia
 	module Api
     class OsurniaApi < Grape::API
       # Mounts
