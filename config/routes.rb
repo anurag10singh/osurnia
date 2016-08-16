@@ -26,7 +26,7 @@ Rails.application.routes.draw do
   #       get 'sold'
   #     end
   #   end
-  mount Osunia::Api::OsurniaApi, at: "/osurnia_api"
+  mount Osurnia::Api::OsurniaApi, at: "/osurnia_api"
 
   # Example resource route with sub-resources:
   #   resources :products do
