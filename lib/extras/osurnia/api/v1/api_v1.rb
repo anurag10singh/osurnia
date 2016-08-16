@@ -9,7 +9,7 @@ module Osurnia
           end
         end
         # Mount
-        mount ::Osurnia::Api::V1::webservices
+        mount ::Osurnia::Api::V1::Webservices
       end
     end
   end
