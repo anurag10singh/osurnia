@@ -10,6 +10,13 @@ module Osurnia
         resource :create_record do
           post do
             data = JSON.parse(params[:records])
+            Student.create(name: data)
+            if @Student.save
+              {
+                status: 'success',
+                message:  'Student is saved to PG database'
+              }
+            end
           end
         end
       end
