@@ -28,7 +28,7 @@ module Osurnia
         resource :get_record do
           get do
             data = params[:id]
-            @student = Student.where(id: @student).first
+            @student = Student.where(id: data).first
             if @student.present?
               {
                 status: 'success',
