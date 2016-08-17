@@ -13,6 +13,7 @@ module Osurnia
             @student = Student.create(name: data)
             if @student.save!
               {
+                success: "#{params[:records]}"
                 status: 'success',
                 message: 'Student is saved to PG database'
               }
